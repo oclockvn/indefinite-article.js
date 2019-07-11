@@ -9,3 +9,8 @@ indefinite-article.js was developed by [@rigoneri]
 [Lingua::EN::Inflect]: http://search.cpan.org/dist/Lingua-EN-Inflect/lib/Lingua/EN/Inflect.pm#PROVIDING_INDEFINITE_ARTICLES
 [this stackoverflow question]: http://stackoverflow.com/questions/4558437
 [@rigoneri]: http://twitter.com/rigoneri
+
+#Usage
+
+/* get letter */ indefiniteArticle.letter('note'); // => 'a'
+/* get word */   indefiniteArticle.word('note'); // => 'a note';
