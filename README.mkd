@@ -12,5 +12,9 @@ indefinite-article.js was developed by [@rigoneri]
 
 #Usage
 
-/* get letter */ indefiniteArticle.letter('note'); // => 'a'  
-/* get word */   indefiniteArticle.word('note'); // => 'a note';
+```
+// get letter
+indefiniteArticle.letter('note'); // => 'a'  
+// get word
+indefiniteArticle.word('note'); // => 'a note';
+```
