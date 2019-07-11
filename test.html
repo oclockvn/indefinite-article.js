@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8" />
-<title>Indefinite Article Test</title>
-<script type="text/javascript" src="indefinite-article.js"></script>
-<script type="text/javascript" src="test.js"></script>
-<script type="text/javascript">
-  document.write(test_indefinite_article());
-</script>
+  <meta charset="utf-8" />
+  <title>Indefinite Article Test</title>
+  <script type="text/javascript" src="indefinite-article.js"></script>
+
 </head>
-<body></body>
+
+<body>
+  <div id="letter">Letters test</div>
+  <div id="word">Words test</div>
+
+  <script type="text/javascript" src="test.js"></script>
+  <script>
+    document.getElementById('letter').innerHTML = "Letters test: " + test_indefinite_article();
+    document.getElementById('word').innerHTML = "Words test: " + test_indefinite_article_word();
+  </script>
+</body>
+
 </html>
